@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+html, 
+body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif, “Apple Color Emoji”, “Segoe UI Emoji”, “Segoe UI Symbol”;
+}
+
+.p-menubar {
+    display: flex;
+    align-items: center;
+    background-color: #CCCCCC !important;
+}
+
+
+
+
+.img-con{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url(../src/assets/financial-bg.jpg);
+    background-size: 100% 100%;
+}
+
+/* Below css used for screen resolution */
+
+@media screen and (max-width: 600px) {
+
+  
+  }
