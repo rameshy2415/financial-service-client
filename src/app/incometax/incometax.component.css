@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    width: 450px;
+}
+
+.form-display {
+    display: flex;
+    height: auto;
+    opacity: 0.8;
+    background-size: 100% 100%;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+}
+
+.p-div{
+    width: 82%;
+}
+
+.btn-display {
+    display: flex;
+    height: auto;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 1%;
+}
+
+.btn-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.danger-btn ,.success-btn{
+    margin-right: 2px;
+    width: 200px;
+}
+
+.success-btn{
+    margin-left: 2px;
+    width: 200px;
+}

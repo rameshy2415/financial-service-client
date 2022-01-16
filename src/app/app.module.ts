@@ -16,7 +16,8 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardModule } from "primeng/card";
-import {ClientService} from './services/client.service'
+import {ClientService} from './services/client.service';
+import { IncometaxComponent } from './incometax/incometax.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {ClientService} from './services/client.service'
     HeaderComponent,
     HomeComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    IncometaxComponent
   ],
   imports: [
     BrowserModule,
